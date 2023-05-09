@@ -1,0 +1,17 @@
+# Simple ECS game model
+
+## Test
+```
+$ go test -v
+=== RUN   TestObjectWorld_AddEntity
+--- PASS: TestObjectWorld_AddEntity (0.00s)
+=== RUN   TestECS
+    example_test.go:325: Alice has 10 health! Bob has 10 health!  
+    example_test.go:325: Alice has 6 health! Bob has 7 health!  
+    example_test.go:325: Alice has 2 health! Bob has 4 health!  
+    example_test.go:325: Bob has 1 health!  
+    example_test.go:331: Game over
+--- PASS: TestECS (0.00s)
+PASS
+ok      ecs     0.025s
+```
